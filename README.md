@@ -24,7 +24,7 @@ set :deploy_via,    :copy_with_triggers
 This gem also add a method to retrieve the path of release build directory:
 
 ```ruby
-set :build_dir      "#{strategy.destinationpath}"
+set :build_dir      "#{strategy.destinationrelease}"
 ```
 
 Additionally to that, you can set the usual options when using the regular :copy strategy for capistrano, like:
