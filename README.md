@@ -1,5 +1,6 @@
-# Capistrano strategy: Copy with triggers [![Gem Version](https://badge.fury.io/rb/capistrano-strategy-copy-with-triggers.svg)](http://badge.fury.io/rb/capistrano-strategy-copy-with-triggers)
-
+[![Gem Version](https://badge.fury.io/rb/capistrano-strategy-copy-with-triggers.svg)](http://badge.fury.io/rb/capistrano-strategy-copy-with-triggers)
+![](http://ruby-gem-downloads-badge.herokuapp.com/capistrano-strategy-copy-with-triggers?type=total)
+# Capistrano strategy: Copy with triggers
 This recipe for capistrano utilizes the regular copy strategy.
 However, it offers some hooks to prepare the build before compression and distribution.
 
